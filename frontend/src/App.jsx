@@ -9,6 +9,8 @@ class App extends Component {
     channels: [],
     users: [],
     messages: [],
+    activeChannel: {},
+    connected: false,
   };
 
   addChannel(name) {
